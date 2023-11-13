@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #303841;
   }
   
   /* Form container styles */
@@ -21,7 +21,7 @@ body {
     text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
-    color: #333;
+    color: #f9f9f9;
   }
   
   /* Description styles */
@@ -29,7 +29,7 @@ body {
     text-align: center;
     font-size: 18px;
     margin-bottom: 30px;
-    color: #666;
+    color: #fff;
   }
   
   /* Label styles */
