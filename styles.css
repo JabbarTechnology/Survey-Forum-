@@ -1,0 +1,112 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Form container styles */
+  #survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  #title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Description styles */
+  #description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    color: #555;
+  }
+  
+  /* Select styles */
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    color: #555;
+  }
+  
+  /* Radio button styles */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Checkbox styles */
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Textarea styles */
+  textarea {
+    height: 100px;
+  }
+  
+  /* Submit button styles */
+  #submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #45a049;
+  }
+  
+  /* Validation error styles */
+  input:invalid,
+  textarea:invalid {
+    border-color: red;
+  }
+  
+  input:invalid:focus,
+  textarea:invalid:focus {
+    outline-color: red;
+  }
